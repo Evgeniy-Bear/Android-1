@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">Live Cycle Activity</string>
     <string name="demo_life_cycle">Жизненный цикл активити</string>
+    <string name="counter_1">counter1</string>
+    <string name="_0">0</string>
+    <string name="click_me">click_me</string>
+    <string name="counter_2">counter2</string>
+    <string name="counter_3">counter3</string>
 </resources>
