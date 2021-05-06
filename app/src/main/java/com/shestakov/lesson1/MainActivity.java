@@ -46,27 +46,27 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void setupUIViews() {
-        button0 = findViewById(R.id.button_18);
-        button1 = findViewById(R.id.button_13);
-        button2 = findViewById(R.id.button_14);
-        button3 = findViewById(R.id.button15);
-        button4 = findViewById(R.id.button_9);
-        button5 = findViewById(R.id.button_10);
-        button6 = findViewById(R.id.button_11);
-        button7 = findViewById(R.id.button_5);
-        button8 = findViewById(R.id.button_6);
-        button9 = findViewById(R.id.button_7);
+        button0 = findViewById(R.id.button_0);
+        button1 = findViewById(R.id.button_1);
+        button2 = findViewById(R.id.button_2);
+        button3 = findViewById(R.id.button_3);
+        button4 = findViewById(R.id.button_4);
+        button5 = findViewById(R.id.button_5);
+        button6 = findViewById(R.id.button_6);
+        button7 = findViewById(R.id.button_7);
+        button8 = findViewById(R.id.button_8);
+        button9 = findViewById(R.id.button_9);
 
-        buttonPlus = findViewById(R.id.button_16);
-        buttonMinus = findViewById(R.id.button_12);
-        buttonMultiplication = findViewById(R.id.button_8);
-        buttonDivision = findViewById(R.id.button_4);
+        buttonPlus = findViewById(R.id.button_Plus);
+        buttonMinus = findViewById(R.id.button_Minus);
+        buttonMultiplication = findViewById(R.id.button_Multiplication);
+        buttonDivision = findViewById(R.id.button_Division);
 
-        buttonEqual = findViewById(R.id.button_20);
-        buttonCline = findViewById(R.id.button_1);
-        buttonDot = findViewById(R.id.button_19);
+        buttonEqual = findViewById(R.id.button_Equal);
+        buttonCline = findViewById(R.id.button_AC);
+        buttonDot = findViewById(R.id.button_Dot);
 
-        buttonPercent = findViewById(R.id.button_3);
+        buttonPercent = findViewById(R.id.button_Percent);
 
         et = findViewById(R.id.editTextNumber);
 
