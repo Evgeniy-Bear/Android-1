@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="margin">2dp</dimen>
+    <item name="horizontal_bias" type="dimen" format="float">0.50</item>
+    <item name="vertical_bias" type="dimen" format="float">0.80</item>
 </resources>

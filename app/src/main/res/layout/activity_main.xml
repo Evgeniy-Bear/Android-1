@@ -17,10 +17,10 @@
 
         app:layout_constraintBottom_toTopOf="@+id/button_9"
         app:layout_constraintEnd_toStartOf="@+id/button_Division"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="@dimen/horizontal_bias"
         app:layout_constraintStart_toEndOf="@+id/button_PlusMinus"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.80"
+        app:layout_constraintVertical_bias="@dimen/vertical_bias"
         app:layout_constraintVertical_chainStyle="packed" />
 
     <com.google.android.material.button.MaterialButton
@@ -31,7 +31,7 @@
         android:text="@string/_7"
         app:layout_constraintBottom_toTopOf="@+id/button_4"
         app:layout_constraintEnd_toStartOf="@+id/button_8"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="@dimen/horizontal_bias"
         app:layout_constraintHorizontal_chainStyle="packed"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button_AC" />
@@ -44,7 +44,7 @@
         android:text="@string/_4"
         app:layout_constraintBottom_toTopOf="@+id/button_1"
         app:layout_constraintEnd_toStartOf="@+id/button_5"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="@dimen/horizontal_bias"
         app:layout_constraintHorizontal_chainStyle="packed"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button_7" />
@@ -56,7 +56,7 @@
         android:text="@string/_plus"
         app:layout_constraintBottom_toTopOf="@+id/button_Equal"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="@dimen/horizontal_bias"
         app:layout_constraintStart_toEndOf="@+id/button_3"
         app:layout_constraintTop_toBottomOf="@+id/button_Minus" />
 
@@ -68,7 +68,7 @@
         android:text="@string/_5"
         app:layout_constraintBottom_toTopOf="@+id/button_2"
         app:layout_constraintEnd_toStartOf="@+id/button_6"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="@dimen/horizontal_bias"
         app:layout_constraintStart_toEndOf="@+id/button_4"
         app:layout_constraintTop_toBottomOf="@+id/button_8" />
 
@@ -80,7 +80,7 @@
 
         app:layout_constraintBottom_toTopOf="@+id/button_Minus"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="@dimen/horizontal_bias"
         app:layout_constraintStart_toEndOf="@+id/button_9"
         app:layout_constraintTop_toBottomOf="@+id/button_Division" />
 
@@ -92,7 +92,7 @@
         android:text="@string/_8"
         app:layout_constraintBottom_toTopOf="@+id/button_5"
         app:layout_constraintEnd_toStartOf="@+id/button_9"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="@dimen/horizontal_bias"
         app:layout_constraintStart_toEndOf="@+id/button_7"
         app:layout_constraintTop_toBottomOf="@+id/button_PlusMinus" />
 
@@ -104,7 +104,7 @@
         android:text="@string/_minus"
         app:layout_constraintBottom_toTopOf="@+id/button_Plus"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="@dimen/horizontal_bias"
         app:layout_constraintStart_toEndOf="@+id/button_6"
         app:layout_constraintTop_toBottomOf="@+id/button_Multiplication" />
 
@@ -116,7 +116,7 @@
         android:text="@string/_9"
         app:layout_constraintBottom_toTopOf="@+id/button_6"
         app:layout_constraintEnd_toStartOf="@+id/button_Multiplication"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="@dimen/horizontal_bias"
         app:layout_constraintStart_toEndOf="@+id/button_8"
         app:layout_constraintTop_toBottomOf="@+id/button_Percent" />
 
@@ -128,7 +128,7 @@
         android:text="@string/_3"
         app:layout_constraintBottom_toTopOf="@+id/button_Dot"
         app:layout_constraintEnd_toStartOf="@+id/button_Plus"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="@dimen/horizontal_bias"
         app:layout_constraintStart_toEndOf="@+id/button_2"
         app:layout_constraintTop_toBottomOf="@+id/button_6" />
 
@@ -140,10 +140,10 @@
         android:text="@string/_plus_minus"
         app:layout_constraintBottom_toTopOf="@+id/button_8"
         app:layout_constraintEnd_toStartOf="@+id/button_Percent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="@dimen/horizontal_bias"
         app:layout_constraintStart_toEndOf="@+id/button_AC"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.8"
+        app:layout_constraintVertical_bias="@dimen/vertical_bias"
         app:layout_constraintVertical_chainStyle="packed" />
 
     <com.google.android.material.button.MaterialButton
@@ -154,7 +154,7 @@
         android:text="@string/_6"
         app:layout_constraintBottom_toTopOf="@+id/button_3"
         app:layout_constraintEnd_toStartOf="@+id/button_Minus"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="@dimen/horizontal_bias"
         app:layout_constraintStart_toEndOf="@+id/button_5"
         app:layout_constraintTop_toBottomOf="@+id/button_9" />
 
@@ -165,7 +165,7 @@
         android:text="@string/_equal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="@dimen/horizontal_bias"
         app:layout_constraintStart_toEndOf="@+id/button_Dot"
         app:layout_constraintTop_toBottomOf="@+id/button_Plus" />
 
@@ -177,7 +177,7 @@
         android:text="@string/_0"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button_Dot"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="@dimen/horizontal_bias"
         app:layout_constraintStart_toEndOf="@+id/button_Empty"
         app:layout_constraintTop_toBottomOf="@+id/button_2" />
 
@@ -189,7 +189,7 @@
         android:text="@string/_dot"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button_Equal"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="@dimen/horizontal_bias"
         app:layout_constraintStart_toEndOf="@+id/button_0"
         app:layout_constraintTop_toBottomOf="@+id/button_3" />
 
@@ -201,7 +201,7 @@
         android:text="@string/_empty"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button_0"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="@dimen/horizontal_bias"
         app:layout_constraintHorizontal_chainStyle="packed"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button_1" />
@@ -214,7 +214,7 @@
         android:text="@string/_1"
         app:layout_constraintBottom_toTopOf="@+id/button_Empty"
         app:layout_constraintEnd_toStartOf="@+id/button_2"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="@dimen/horizontal_bias"
         app:layout_constraintHorizontal_chainStyle="packed"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button_4" />
@@ -227,7 +227,7 @@
         android:text="@string/_2"
         app:layout_constraintBottom_toTopOf="@+id/button_0"
         app:layout_constraintEnd_toStartOf="@+id/button_3"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="@dimen/horizontal_bias"
         app:layout_constraintStart_toEndOf="@+id/button_1"
         app:layout_constraintTop_toBottomOf="@+id/button_5" />
 
@@ -238,10 +238,10 @@
         android:text="@string/_division"
         app:layout_constraintBottom_toTopOf="@+id/button_Multiplication"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="@dimen/horizontal_bias"
         app:layout_constraintStart_toEndOf="@+id/button_Percent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.80"
+        app:layout_constraintVertical_bias="@dimen/vertical_bias"
         app:layout_constraintVertical_chainStyle="packed" />
 
 
@@ -254,11 +254,11 @@
         android:text="@string/_ac"
         app:layout_constraintBottom_toTopOf="@+id/button_7"
         app:layout_constraintEnd_toStartOf="@+id/button_PlusMinus"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="@dimen/horizontal_bias"
         app:layout_constraintHorizontal_chainStyle="packed"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.8"
+        app:layout_constraintVertical_bias="@dimen/vertical_bias"
         app:layout_constraintVertical_chainStyle="packed" />
 
     <EditText
