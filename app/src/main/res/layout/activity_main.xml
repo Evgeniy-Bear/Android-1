@@ -10,11 +10,11 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/button_Percent"
-        style="@style/MyTextStyleButtonAction"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginRight="@dimen/margin"
-        android:text="@string/_percent"
+        android:text="@string/percent"
 
         app:layout_constraintBottom_toTopOf="@+id/button_9"
         app:layout_constraintEnd_toStartOf="@+id/button_Division"
@@ -26,7 +26,7 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/button_7"
-        style="@style/MyTextStyleButton"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginRight="@dimen/margin"
@@ -40,7 +40,7 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/button_4"
-        style="@style/MyTextStyleButton"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginRight="@dimen/margin"
@@ -54,10 +54,10 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/button_Plus"
-        style="@style/MyTextStyleButtonAction"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/_plus"
+        android:text="@string/plus"
         app:layout_constraintBottom_toTopOf="@+id/button_Equal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="@dimen/horizontal_bias"
@@ -66,7 +66,7 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/button_5"
-        style="@style/MyTextStyleButton"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginRight="@dimen/margin"
@@ -79,10 +79,10 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/button_Multiplication"
-        style="@style/MyTextStyleButtonAction"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/_multiplication"
+        android:text="@string/multiplication"
 
         app:layout_constraintBottom_toTopOf="@+id/button_Minus"
         app:layout_constraintEnd_toEndOf="parent"
@@ -92,7 +92,7 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/button_8"
-        style="@style/MyTextStyleButton"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginRight="@dimen/margin"
@@ -105,11 +105,11 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/button_Minus"
-        style="@style/MyTextStyleButtonAction"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginRight="2dp"
-        android:text="@string/_minus"
+        android:text="@string/minus"
         app:layout_constraintBottom_toTopOf="@+id/button_Plus"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="@dimen/horizontal_bias"
@@ -118,7 +118,7 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/button_9"
-        style="@style/MyTextStyleButton"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginRight="@dimen/margin"
@@ -131,7 +131,7 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/button_3"
-        style="@style/MyTextStyleButton"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginRight="@dimen/margin"
@@ -144,11 +144,11 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/button_PlusMinus"
-        style="@style/MyTextStyleButtonAction"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginRight="@dimen/margin"
-        android:text="@string/_plus_minus"
+        android:text="@string/plus_minus"
         app:layout_constraintBottom_toTopOf="@+id/button_8"
         app:layout_constraintEnd_toStartOf="@+id/button_Percent"
         app:layout_constraintHorizontal_bias="@dimen/horizontal_bias"
@@ -159,7 +159,7 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/button_6"
-        style="@style/MyTextStyleButton"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginRight="@dimen/margin"
@@ -172,10 +172,10 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/button_Equal"
-        style="@style/MyTextStyleButtonAction"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/_equal"
+        android:text="@string/equal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="@dimen/horizontal_bias"
@@ -184,7 +184,7 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/button_0"
-        style="@style/MyTextStyleButton"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginRight="@dimen/margin"
@@ -197,11 +197,11 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/button_Dot"
-        style="@style/MyTextStyleButton"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginRight="@dimen/margin"
-        android:text="@string/_dot"
+        android:text="@string/dot"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button_Equal"
         app:layout_constraintHorizontal_bias="@dimen/horizontal_bias"
@@ -210,11 +210,11 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/button_Empty"
-        style="@style/MyTextStyleButton"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginRight="@dimen/margin"
-        android:text="@string/_empty"
+        android:text="@string/empty"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button_0"
         app:layout_constraintHorizontal_bias="@dimen/horizontal_bias"
@@ -224,7 +224,7 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/button_1"
-        style="@style/MyTextStyleButton"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginRight="@dimen/margin"
@@ -238,7 +238,7 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/button_2"
-        style="@style/MyTextStyleButton"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginRight="@dimen/margin"
@@ -251,10 +251,10 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/button_Division"
-        style="@style/MyTextStyleButtonAction"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/_division"
+        android:text="@string/division"
         app:layout_constraintBottom_toTopOf="@+id/button_Multiplication"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="@dimen/horizontal_bias"
@@ -266,11 +266,11 @@
 
     <Button
         android:id="@+id/button_AC"
-        style="@style/MyTextStyleButtonAction"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginRight="@dimen/margin"
-        android:text="@string/_ac"
+        android:text="@string/ac"
         app:layout_constraintBottom_toTopOf="@+id/button_7"
         app:layout_constraintEnd_toStartOf="@+id/button_PlusMinus"
         app:layout_constraintHorizontal_bias="@dimen/horizontal_bias"

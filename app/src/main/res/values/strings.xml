@@ -1,15 +1,15 @@
 <resources>
     <string name="app_name">Calc</string>
-    <string name="_ac">AC</string>
-    <string name="_percent">%</string>
-    <string name="_plus">+</string>
-    <string name="_minus">-</string>
-    <string name="_division">/</string>
-    <string name="_multiplication">*</string>
-    <string name="_dot">.</string>
-    <string name="_equal">=</string>
-    <string name="_plus_minus">+/-</string>
-    <string name="_empty"></string>
+    <string name="ac">AC</string>
+    <string name="percent">%</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="division">/</string>
+    <string name="multiplication">*</string>
+    <string name="dot">.</string>
+    <string name="equal">=</string>
+    <string name="plus_minus">+/-</string>
+    <string name="empty"></string>
     <string name="_9">9</string>
     <string name="_8">8</string>
     <string name="_7">7</string>
@@ -20,5 +20,13 @@
     <string name="_2">2</string>
     <string name="_1">1</string>
     <string name="_0">0</string>
+
+
+    <string name="my_style_orange">My style orange</string>
+    <string name="my_style_green">My style green</string>
+    <string name="my_style">My style</string>
+    <string name="my_style_dark">My style dark</string>
+
+
 
 </resources>
