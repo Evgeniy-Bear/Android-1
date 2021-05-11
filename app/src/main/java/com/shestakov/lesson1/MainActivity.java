@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends BaseActivity {
     private static final String NUMBER_PARAM = "NUMBER_PARAM";
     String oldNumber = "";
     String saveText = "";
@@ -74,183 +74,132 @@ public class MainActivity extends AppCompatActivity {
 
     private void buttonSetOnClickListeners() {
 
-        button1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (isNewOp) et.setText("");
-                isNewOp=false;
-                String number = et.getText().toString();
-                number += "1";
-                et.setText(number);
-            }
+        button1.setOnClickListener(v -> {
+            if (isNewOp) et.setText("");
+            isNewOp = false;
+            String number = et.getText().toString();
+            number += "1";
+            et.setText(number);
         });
-        button2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (isNewOp) et.setText("");
-                isNewOp=false;
-                String number = et.getText().toString();
-                number += "2";
-                et.setText(number);
-            }
+        button2.setOnClickListener(v -> {
+            if (isNewOp) et.setText("");
+            isNewOp = false;
+            String number = et.getText().toString();
+            number += "2";
+            et.setText(number);
         });
-        button3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (isNewOp) et.setText("");
-                isNewOp=false;
-                String number = et.getText().toString();
-                number += "3";
-                et.setText(number);
-            }
+        button3.setOnClickListener(v -> {
+            if (isNewOp) et.setText("");
+            isNewOp = false;
+            String number = et.getText().toString();
+            number += "3";
+            et.setText(number);
         });
-        button4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (isNewOp) et.setText("");
-                isNewOp=false;
-                String number = et.getText().toString();
-                number += "4";
-                et.setText(number);
-            }
+        button4.setOnClickListener(v -> {
+            if (isNewOp) et.setText("");
+            isNewOp = false;
+            String number = et.getText().toString();
+            number += "4";
+            et.setText(number);
         });
-        button5.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (isNewOp) et.setText("");
-                isNewOp=false;
-                String number = et.getText().toString();
-                number += "5";
-                et.setText(number);
-            }
+        button5.setOnClickListener(v -> {
+            if (isNewOp) et.setText("");
+            isNewOp = false;
+            String number = et.getText().toString();
+            number += "5";
+            et.setText(number);
         });
         button6.setOnClickListener(v -> {
             if (isNewOp) et.setText("");
-            isNewOp=false;
+            isNewOp = false;
             String number = et.getText().toString();
             number += "6";
             et.setText(number);
         });
-        button7.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (isNewOp) et.setText("");
-                isNewOp=false;
-                String number = et.getText().toString();
-                number += "7";
-                et.setText(number);
-            }
+        button7.setOnClickListener(v -> {
+            if (isNewOp) et.setText("");
+            isNewOp = false;
+            String number = et.getText().toString();
+            number += "7";
+            et.setText(number);
         });
-        button8.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (isNewOp) et.setText("");
-                isNewOp=false;
-                String number = et.getText().toString();
-                number += "8";
-                et.setText(number);
-            }
+        button8.setOnClickListener(v -> {
+            if (isNewOp) et.setText("");
+            isNewOp = false;
+            String number = et.getText().toString();
+            number += "8";
+            et.setText(number);
         });
-        button9.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (isNewOp) et.setText("");
-                isNewOp=false;
-                String number = et.getText().toString();
-                number += "9";
-                et.setText(number);
-            }
+        button9.setOnClickListener(v -> {
+            if (isNewOp) et.setText("");
+            isNewOp = false;
+            String number = et.getText().toString();
+            number += "9";
+            et.setText(number);
         });
-        button0.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (isNewOp) et.setText("");
-                isNewOp=false;
-                String number = et.getText().toString();
-                number += "0";
-                et.setText(number);
-            }
+        button0.setOnClickListener(v -> {
+            if (isNewOp) et.setText("");
+            isNewOp = false;
+            String number = et.getText().toString();
+            number += "0";
+            et.setText(number);
         });
-        buttonDot.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (isNewOp) et.setText("");
-                isNewOp=false;
-                String number = et.getText().toString();
-                number += ".";
-                et.setText(number);
-            }
+        buttonDot.setOnClickListener(v -> {
+            if (isNewOp) et.setText("");
+            isNewOp = false;
+            String number = et.getText().toString();
+            number += ".";
+            et.setText(number);
         });
-        buttonPlus.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                isNewOp = true;
-                oldNumber = et.getText().toString();
-                op = "+";
-            }
+        buttonPlus.setOnClickListener(v -> {
+            isNewOp = true;
+            oldNumber = et.getText().toString();
+            op = "+";
         });
-        buttonMinus.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                isNewOp = true;
-                oldNumber = et.getText().toString();
-                op = "-";
-            }
+        buttonMinus.setOnClickListener(v -> {
+            isNewOp = true;
+            oldNumber = et.getText().toString();
+            op = "-";
         });
-        buttonMultiplication.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                isNewOp = true;
-                oldNumber = et.getText().toString();
-                op = "*";
-            }
+        buttonMultiplication.setOnClickListener(v -> {
+            isNewOp = true;
+            oldNumber = et.getText().toString();
+            op = "*";
         });
-        buttonDivision.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                isNewOp = true;
-                oldNumber = et.getText().toString();
-                op = "/";
-            }
+        buttonDivision.setOnClickListener(v -> {
+            isNewOp = true;
+            oldNumber = et.getText().toString();
+            op = "/";
         });
-        buttonCline.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                et.setText("0");
-                isNewOp = true;
-            }
+        buttonCline.setOnClickListener(v -> {
+            et.setText("0");
+            isNewOp = true;
         });
-        buttonPercent.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                double no = Double.parseDouble(et.getText().toString()) / 100;
-                et.setText(no + "");
-                isNewOp = true;
-            }
+        buttonPercent.setOnClickListener(v -> {
+            double no = Double.parseDouble(et.getText().toString()) / 100;
+            et.setText(no + "");
+            isNewOp = true;
         });
 
 
-        buttonEqual.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                String newNumber = et.getText().toString();
-                double result = 0.0;
-                switch (op) {
-                    case "+":
-                        result = Double.parseDouble(oldNumber) + Double.parseDouble(newNumber);
-                        break;
-                    case "-":
-                        result = Double.parseDouble(oldNumber) - Double.parseDouble(newNumber);
-                        break;
-                    case "/":
-                        result = Double.parseDouble(oldNumber) / Double.parseDouble(newNumber);
-                        break;
-                    case "*":
-                        result = Double.parseDouble(oldNumber) * Double.parseDouble(newNumber);
-                        break;
-                }
-                et.setText(result + "");
+        buttonEqual.setOnClickListener(v -> {
+            String newNumber = et.getText().toString();
+            double result = 0.0;
+            switch (op) {
+                case "+":
+                    result = Double.parseDouble(oldNumber) + Double.parseDouble(newNumber);
+                    break;
+                case "-":
+                    result = Double.parseDouble(oldNumber) - Double.parseDouble(newNumber);
+                    break;
+                case "/":
+                    result = Double.parseDouble(oldNumber) / Double.parseDouble(newNumber);
+                    break;
+                case "*":
+                    result = Double.parseDouble(oldNumber) * Double.parseDouble(newNumber);
+                    break;
             }
+            et.setText(result + "");
         });
     }
 
